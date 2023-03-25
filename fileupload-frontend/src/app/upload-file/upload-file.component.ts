@@ -51,7 +51,7 @@ export class UploadFileComponent implements OnInit {
 
         this.setOption(x);
        
-        alert("File Uploaded Successfully")
+        console.log("File Uploaded Successfully")
       },
       error: (e) => {
         console.log(e);
@@ -94,7 +94,7 @@ export class UploadFileComponent implements OnInit {
           label: {
             rotation: 45,
             formatter: (params) => {
-              return params.value + 'cm';
+              return params.value ;
             },
           },
         },
@@ -106,7 +106,7 @@ export class UploadFileComponent implements OnInit {
           },
           label: {
             formatter: (params) => {
-              return params.value + 'kg';
+              return params.value;
             },
           },
         },
