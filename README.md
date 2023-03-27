@@ -1,12 +1,5 @@
 # fileupload
 
-requests==2.28.1
-fastapi==0.92.0
-PyYAML==6.0
-uvicorn==0.18.2
-pandas==1.5.0
-matplotlib==3.5.1
-python-multipart==0.0.5
 
   
 
